@@ -1,4 +1,4 @@
-﻿Log file open, 06/29/20 22:41:33
+﻿Log file open, 06/29/20 23:18:34
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: KulaGame
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.086140
+LogStats: Stats thread started at 0.063180
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -163,757 +163,452 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.06.29-20.41.33:184][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.06.29-20.41.33:184][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.06.29-20.41.33:184][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/PGPW/Programowanie/Kula/KulaGame/Saved/Config/Windows/Engine.ini]
-[2020.06.29-20.41.33:184][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.06.29-20.41.33:184][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/PGPW/Programowanie/Kula/KulaGame/Saved/Config/Windows/Engine.ini]
-[2020.06.29-20.41.33:184][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/PGPW/Programowanie/Kula/KulaGame/Saved/Config/Windows/Engine.ini]
-[2020.06.29-20.41.33:184][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.06.29-20.41.33:184][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.06.29-20.41.33:184][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.06.29-20.41.33:184][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.06.29-20.41.33:184][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.06.29-20.41.33:184][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.06.29-20.41.33:184][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.06.29-20.41.33:184][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.06.29-20.41.33:184][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.06.29-20.41.33:184][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.06.29-20.41.33:184][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.06.29-20.41.33:184][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.06.29-20.41.33:184][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.06.29-20.41.33:184][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.06.29-20.41.33:184][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/PGPW/Programowanie/Kula/KulaGame/Saved/Config/Windows/Engine.ini]
-[2020.06.29-20.41.33:184][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.06.29-20.41.33:184][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.06.29-20.41.33:184][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.06.29-20.41.33:184][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.06.29-20.41.33:184][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.06.29-20.41.33:184][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.06.29-20.41.33:184][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.06.29-20.41.33:184][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.06.29-20.41.33:184][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.06.29-20.41.33:184][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.06.29-20.41.33:184][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.06.29-20.41.33:184][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.06.29-20.41.33:184][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.06.29-20.41.33:184][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/PGPW/Programowanie/Kula/KulaGame/Saved/Config/Windows/Engine.ini]
-[2020.06.29-20.41.33:184][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/PGPW/Programowanie/Kula/KulaGame/Saved/Config/Windows/Engine.ini]
-[2020.06.29-20.41.33:186][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/PGPW/Programowanie/Kula/KulaGame/Saved/Config/Windows/Scalability.ini]
-[2020.06.29-20.41.33:186][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.06.29-20.41.33:186][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.06.29-20.41.33:186][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/PGPW/Programowanie/Kula/KulaGame/Saved/Config/Windows/Scalability.ini]
-[2020.06.29-20.41.33:186][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.06.29-20.41.33:186][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/PGPW/Programowanie/Kula/KulaGame/Saved/Config/Windows/Scalability.ini]
-[2020.06.29-20.41.33:186][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.06.29-20.41.33:186][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.06.29-20.41.33:186][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.06.29-20.41.33:186][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.06.29-20.41.33:186][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.06.29-20.41.33:186][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.06.29-20.41.33:186][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.06.29-20.41.33:186][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.06.29-20.41.33:186][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/PGPW/Programowanie/Kula/KulaGame/Saved/Config/Windows/Scalability.ini]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/PGPW/Programowanie/Kula/KulaGame/Saved/Config/Windows/Scalability.ini]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/PGPW/Programowanie/Kula/KulaGame/Saved/Config/Windows/Scalability.ini]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.06.29-20.41.33:187][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.06.29-20.41.33:188][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.06.29-20.41.33:188][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.06.29-20.41.33:188][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.06.29-20.41.33:188][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.06.29-20.41.33:188][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.06.29-20.41.33:188][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.06.29-20.41.33:188][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.06.29-20.41.33:188][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.06.29-20.41.33:188][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.06.29-20.41.33:188][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.06.29-20.41.33:188][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.06.29-20.41.33:188][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/PGPW/Programowanie/Kula/KulaGame/Saved/Config/Windows/Scalability.ini]
-[2020.06.29-20.41.33:188][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.06.29-20.41.33:188][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.06.29-20.41.33:188][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/PGPW/Programowanie/Kula/KulaGame/Saved/Config/Windows/Scalability.ini]
-[2020.06.29-20.41.33:188][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.06.29-20.41.33:188][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.06.29-20.41.33:188][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.06.29-20.41.33:188][  0]LogInit: Selected Device Profile: [Windows]
-[2020.06.29-20.41.33:188][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.06.29-20.41.33:190][  0]LogHAL: Display: Platform has ~ 16 GB [17106587648 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.06.29-20.41.33:190][  0]LogInit: Going up to parent DeviceProfile []
-[2020.06.29-20.41.33:190][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/PGPW/Programowanie/Kula/KulaGame/Saved/Config/Windows/Scalability.ini]
-[2020.06.29-20.41.33:190][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.06.29-20.41.33:190][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.06.29-20.41.33:190][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/PGPW/Programowanie/Kula/KulaGame/Saved/Config/Windows/Scalability.ini]
-[2020.06.29-20.41.33:190][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.06.29-20.41.33:190][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/PGPW/Programowanie/Kula/KulaGame/Saved/Config/Windows/Scalability.ini]
-[2020.06.29-20.41.33:190][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.06.29-20.41.33:190][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.06.29-20.41.33:190][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.06.29-20.41.33:190][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.06.29-20.41.33:190][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.06.29-20.41.33:190][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.06.29-20.41.33:190][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.06.29-20.41.33:190][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.06.29-20.41.33:190][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/PGPW/Programowanie/Kula/KulaGame/Saved/Config/Windows/Scalability.ini]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/PGPW/Programowanie/Kula/KulaGame/Saved/Config/Windows/Scalability.ini]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/PGPW/Programowanie/Kula/KulaGame/Saved/Config/Windows/Scalability.ini]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.06.29-20.41.33:191][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.06.29-20.41.33:192][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.06.29-20.41.33:192][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.06.29-20.41.33:192][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.06.29-20.41.33:192][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.06.29-20.41.33:192][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.06.29-20.41.33:192][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.06.29-20.41.33:192][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.06.29-20.41.33:192][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.06.29-20.41.33:192][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.06.29-20.41.33:192][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.06.29-20.41.33:192][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/PGPW/Programowanie/Kula/KulaGame/Saved/Config/Windows/Scalability.ini]
-[2020.06.29-20.41.33:192][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.06.29-20.41.33:192][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.06.29-20.41.33:192][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/PGPW/Programowanie/Kula/KulaGame/Saved/Config/Windows/Scalability.ini]
-[2020.06.29-20.41.33:192][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.06.29-20.41.33:192][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.06.29-20.41.33:192][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.06.29-20.41.33:192][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.06.29-20.41.33:192][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.06.29-20.41.33:192][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.06.29-20.41.33:192][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/PGPW/Programowanie/Kula/KulaGame/Saved/Config/Windows/Engine.ini]
-[2020.06.29-20.41.33:192][  0]LogInit: Computer: DESKTOP-B6UEMA3
-[2020.06.29-20.41.33:192][  0]LogInit: User: User
-[2020.06.29-20.41.33:192][  0]LogInit: CPU Page size=4096, Cores=6
-[2020.06.29-20.41.33:192][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.06.29-20.41.33:192][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2020.06.29-20.41.33:192][  0]LogMemory: Platform Memory Stats for Windows
-[2020.06.29-20.41.33:192][  0]LogMemory: Process Physical Memory: 104.50 MB used, 104.51 MB peak
-[2020.06.29-20.41.33:192][  0]LogMemory: Process Virtual Memory: 101.41 MB used, 101.41 MB peak
-[2020.06.29-20.41.33:192][  0]LogMemory: Physical Memory: 6147.53 MB used,  10166.58 MB free, 16314.11 MB total
-[2020.06.29-20.41.33:192][  0]LogMemory: Virtual Memory: 5159.40 MB used,  134212568.00 MB free, 134217728.00 MB total
-[2020.06.29-20.41.33:195][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.06.29-20.41.33:209][  0]LogInit: Using OS detected language (pl-PL).
-[2020.06.29-20.41.33:209][  0]LogInit: Using OS detected locale (pl-PL).
-[2020.06.29-20.41.33:210][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
-[2020.06.29-20.41.33:210][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/pl/Editor.locres' could not be opened for reading!
-[2020.06.29-20.41.33:210][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/pl/EditorTutorials.locres' could not be opened for reading!
-[2020.06.29-20.41.33:210][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/pl/Keywords.locres' could not be opened for reading!
-[2020.06.29-20.41.33:210][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/pl/Category.locres' could not be opened for reading!
-[2020.06.29-20.41.33:210][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/pl/ToolTips.locres' could not be opened for reading!
-[2020.06.29-20.41.33:211][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/pl/PropertyNames.locres' could not be opened for reading!
-[2020.06.29-20.41.33:211][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/pl/Engine.locres' could not be opened for reading!
-[2020.06.29-20.41.33:211][  0]LogInit: Setting process to per monitor DPI aware
-[2020.06.29-20.41.33:236][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.06.29-20.41.33:236][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.06.29-20.41.33:381][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.06.29-20.41.33:381][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.06.29-20.41.33:381][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.06.29-20.41.33:381][  0]LogD3D11RHI: D3D11 adapters:
-[2020.06.29-20.41.33:459][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660' (Feature Level 11_0)
-[2020.06.29-20.41.33:459][  0]LogD3D11RHI:       5991/0/8157 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.06.29-20.41.33:462][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.06.29-20.41.33:462][  0]LogD3D11RHI:       0/0/8157 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.06.29-20.41.33:462][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.06.29-20.41.33:471][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.06.29-20.41.33:471][  0]LogD3D11RHI:     GPU DeviceId: 0x2184 (for the marketing name, search the web for "GPU Device Id")
-[2020.06.29-20.41.33:471][  0]LogWindows: EnumDisplayDevices:
-[2020.06.29-20.41.33:471][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1660' (P:1 D:1)
-[2020.06.29-20.41.33:472][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1660' (P:0 D:0)
-[2020.06.29-20.41.33:472][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1660' (P:0 D:0)
-[2020.06.29-20.41.33:472][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660' (P:0 D:0)
-[2020.06.29-20.41.33:473][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.06.29-20.41.33:473][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660
-[2020.06.29-20.41.33:473][  0]LogD3D11RHI:   Driver Version: 445.87 (internal:26.21.14.4587, unified:445.87)
-[2020.06.29-20.41.33:473][  0]LogD3D11RHI:      Driver Date: 4-3-2020
-[2020.06.29-20.41.33:473][  0]LogRHI: Texture pool is 4193 MB (70% of 5991 MB)
-[2020.06.29-20.41.33:534][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.06.29-20.41.33:534][  0]LogD3D11RHI: Async texture creation enabled
-[2020.06.29-20.41.33:546][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.06.29-20.41.33:806][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.06.29-20.41.33:840][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.06.29-20.41.33:840][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.06.29-20.41.33:840][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
-[2020.06.29-20.41.33:840][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.06.29-20.41.33:840][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
-[2020.06.29-20.41.33:840][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
-[2020.06.29-20.41.33:840][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.06.29-20.41.33:840][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
-[2020.06.29-20.41.33:840][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.06.29-20.41.33:840][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.06.29-20.41.33:840][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
-[2020.06.29-20.41.33:840][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.06.29-20.41.33:840][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
-[2020.06.29-20.41.33:840][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
-[2020.06.29-20.41.33:840][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.06.29-20.41.33:840][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
-[2020.06.29-20.41.33:840][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.06.29-20.41.33:840][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.06.29-20.41.33:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.06.29-20.41.33:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.06.29-20.41.33:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.06.29-20.41.33:873][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.06.29-20.41.33:880][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.06.29-20.41.33:887][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.06.29-20.41.33:894][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.06.29-20.41.33:901][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.06.29-20.41.33:925][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.06.29-20.41.33:925][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.06.29-20.41.33:939][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.06.29-20.41.33:939][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.06.29-20.41.33:946][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.06.29-20.41.33:954][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.06.29-20.41.33:961][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.06.29-20.41.33:968][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.06.29-20.41.33:968][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.06.29-20.41.33:971][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.06.29-20.41.33:988][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../PGPW/Programowanie/Kula/KulaGame/Intermediate/Shaders/WorkingDirectory/14708/).
-[2020.06.29-20.41.33:988][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/56C6A57B4E6409409B1ECEAE2C06129B/'.
-[2020.06.29-20.41.33:989][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.06.29-20.41.33:989][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.06.29-20.41.33:989][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.06.29-20.41.34:728][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.06.29-20.41.34:774][  0]LogDerivedDataCache: Loaded boot cache 0.05s 78MB C:/Users/User/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.06.29-20.41.34:774][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
-[2020.06.29-20.41.34:774][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../PGPW/Programowanie/Kula/KulaGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.06.29-20.41.34:774][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.06.29-20.41.34:774][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../PGPW/Programowanie/Kula/KulaGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.06.29-20.41.34:774][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.06.29-20.41.34:785][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.06.29-20.41.34:785][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.06.29-20.41.34:785][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.06.29-20.41.34:786][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.06.29-20.41.34:786][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.06.29-20.41.34:786][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.06.29-20.41.34:815][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.06.29-20.41.34:818][  0]LogSlate: Using FreeType 2.10.0
-[2020.06.29-20.41.34:819][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.06.29-20.41.34:870][  0]LogAssetRegistry: FAssetRegistry took 0.0022 seconds to start up
-[2020.06.29-20.41.35:163][  0]LogInit: Selected Device Profile: [Windows]
-[2020.06.29-20.41.35:317][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.06.29-20.41.35:317][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.06.29-20.41.35:317][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.06.29-20.41.35:317][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.06.29-20.41.35:317][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.06.29-20.41.35:328][  0]LogNetVersion: KulaGame 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 871598585)
-[2020.06.29-20.41.36:417][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.061306 seconds
-[2020.06.29-20.41.36:426][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
-[2020.06.29-20.41.36:426][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
-[2020.06.29-20.41.36:426][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.06.29-20.41.36:888][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.06.29-20.41.36:922][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.06.29-20.41.36:975][  0]SourceControl: Source control is disabled
-[2020.06.29-20.41.36:975][  0]SourceControl: Source control is disabled
-[2020.06.29-20.41.36:977][  0]SourceControl: Source control is disabled
-[2020.06.29-20.41.36:978][  0]SourceControl: Source control is disabled
-[2020.06.29-20.41.36:979][  0]SourceControl: Source control is disabled
-[2020.06.29-20.41.37:072][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.06.29-20.41.37:084][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.06.29-20.41.37:084][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.06.29-20.41.37:172][  0]LogOcInput: OculusInput pre-init called
-[2020.06.29-20.41.37:178][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.06.29-20.41.37:179][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.06.29-20.41.37:251][  0]LogEngine: Initializing Engine...
-[2020.06.29-20.41.37:252][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.06.29-20.41.37:253][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.06.29-20.41.37:615][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.06.29-20.41.37:621][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.06.29-20.41.37:630][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.06.29-20.41.37:630][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.06.29-20.41.37:630][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.06.29-20.41.37:630][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.06.29-20.41.37:630][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.06.29-20.41.37:630][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.06.29-20.41.37:630][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.06.29-20.41.37:630][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.06.29-20.41.37:630][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.06.29-20.41.37:630][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.06.29-20.41.37:638][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.06.29-20.41.37:639][  0]LogAudioMixer: Display: Name: Głośniki (Realtek(R) Audio)
-[2020.06.29-20.41.37:639][  0]LogAudioMixer: Display: Is Default: Yes
-[2020.06.29-20.41.37:639][  0]LogAudioMixer: Display: Sample Rate: 48000
-[2020.06.29-20.41.37:639][  0]LogAudioMixer: Display: Channel Count Used: 2
-[2020.06.29-20.41.37:639][  0]LogAudioMixer: Display: Device Channel Count: 2
-[2020.06.29-20.41.37:639][  0]LogAudioMixer: Display: Channel Order:
-[2020.06.29-20.41.37:639][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.06.29-20.41.37:639][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.06.29-20.41.37:688][  0]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
-[2020.06.29-20.41.37:691][  0]LogInit: FAudioDevice initialized.
-[2020.06.29-20.41.37:692][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.06.29-20.41.37:970][  0]LogDerivedDataCache: Saved boot cache 0.28s 78MB C:/Users/User/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.06.29-20.41.37:973][  0]LogInit: Texture streaming: Enabled
-[2020.06.29-20.41.37:983][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.06.29-20.41.37:983][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.06.29-20.41.37:984][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.06.29-20.41.38:102][  0]LogInit: Transaction tracking system initialized
-[2020.06.29-20.41.38:111][  0]BlueprintLog: New page: Editor Load
-[2020.06.29-20.41.38:182][  0]LocalizationService: Localization service is disabled
-[2020.06.29-20.41.38:534][  0]LogFileCache: Scanning file cache for directory 'E:/PGPW/Programowanie/Kula/KulaGame/Content/' took 0.00s
-[2020.06.29-20.41.38:534][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.06.29-20.41.38:534][  0]LogCook: Display: Mobile HDR setting 1
-[2020.06.29-20.41.39:207][  0]SourceControl: Source control is disabled
-[2020.06.29-20.41.39:302][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 E:/Programy/UE_4.24/FeaturePacks/StarterContent.upack)
-[2020.06.29-20.41.39:731][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2020.06.29-20.41.39:737][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2020.06.29-20.41.39:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2020.06.29-20.41.39:799][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2020.06.29-20.41.39:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2020.06.29-20.41.39:837][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2020.06.29-20.41.39:858][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2020.06.29-20.41.39:875][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2020.06.29-20.41.39:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2020.06.29-20.41.39:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2020.06.29-20.41.39:936][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2020.06.29-20.41.39:962][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2020.06.29-20.41.40:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Audio/Collapse01.uasset"
-[2020.06.29-20.41.40:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Audio/Collapse02.uasset"
-[2020.06.29-20.41.40:046][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2020.06.29-20.41.40:056][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Audio/Explosion01.uasset"
-[2020.06.29-20.41.40:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Audio/Explosion02.uasset"
-[2020.06.29-20.41.40:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2020.06.29-20.41.40:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Audio/Fire01.uasset"
-[2020.06.29-20.41.40:355][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2020.06.29-20.41.40:375][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2020.06.29-20.41.40:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2020.06.29-20.41.40:407][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Audio/Light01.uasset"
-[2020.06.29-20.41.40:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2020.06.29-20.41.40:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Audio/Light02.uasset"
-[2020.06.29-20.41.40:488][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2020.06.29-20.41.40:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Audio/Smoke01.uasset"
-[2020.06.29-20.41.40:529][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2020.06.29-20.41.40:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2020.06.29-20.41.40:608][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2020.06.29-20.41.40:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2020.06.29-20.41.40:762][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2020.06.29-20.41.40:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2020.06.29-20.41.40:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2020.06.29-20.41.40:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Audio/Steam01.uasset"
-[2020.06.29-20.41.40:871][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2020.06.29-20.41.40:933][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2020.06.29-20.41.40:992][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2020.06.29-20.41.41:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2020.06.29-20.41.41:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2020.06.29-20.41.41:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2020.06.29-20.41.41:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2020.06.29-20.41.41:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2020.06.29-20.41.41:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2020.06.29-20.41.41:161][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2020.06.29-20.41.41:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2020.06.29-20.41.41:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2020.06.29-20.41.41:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2020.06.29-20.41.41:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2020.06.29-20.41.41:392][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2020.06.29-20.41.41:409][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2020.06.29-20.41.41:419][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2020.06.29-20.41.42:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2020.06.29-20.41.42:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2020.06.29-20.41.42:326][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
-[2020.06.29-20.41.42:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Maps/Minimal_Default.umap"
-[2020.06.29-20.41.42:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2020.06.29-20.41.42:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Maps/StarterMap.umap"
-[2020.06.29-20.41.42:840][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
-[2020.06.29-20.41.42:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2020.06.29-20.41.43:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2020.06.29-20.41.43:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2020.06.29-20.41.43:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2020.06.29-20.41.43:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2020.06.29-20.41.43:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2020.06.29-20.41.43:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2020.06.29-20.41.43:350][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2020.06.29-20.41.43:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2020.06.29-20.41.43:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2020.06.29-20.41.43:433][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2020.06.29-20.41.43:485][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2020.06.29-20.41.43:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2020.06.29-20.41.43:561][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2020.06.29-20.41.43:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2020.06.29-20.41.43:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2020.06.29-20.41.43:680][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2020.06.29-20.41.43:729][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Glass.uasset"
-[2020.06.29-20.41.43:756][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2020.06.29-20.41.43:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2020.06.29-20.41.43:784][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2020.06.29-20.41.43:829][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2020.06.29-20.41.43:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2020.06.29-20.41.43:859][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2020.06.29-20.41.43:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2020.06.29-20.41.43:920][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2020.06.29-20.41.43:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2020.06.29-20.41.44:012][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2020.06.29-20.41.44:039][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2020.06.29-20.41.44:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2020.06.29-20.41.44:063][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2020.06.29-20.41.44:091][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2020.06.29-20.41.44:114][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2020.06.29-20.41.44:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2020.06.29-20.41.44:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2020.06.29-20.41.44:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2020.06.29-20.41.44:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2020.06.29-20.41.44:420][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2020.06.29-20.41.44:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2020.06.29-20.41.44:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2020.06.29-20.41.44:593][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2020.06.29-20.41.44:612][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2020.06.29-20.41.44:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2020.06.29-20.41.44:827][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2020.06.29-20.41.44:843][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Particles/P_Explosion.uasset"
-[2020.06.29-20.41.44:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Particles/P_Fire.uasset"
-[2020.06.29-20.41.44:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Particles/P_Smoke.uasset"
-[2020.06.29-20.41.44:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Particles/P_Sparks.uasset"
-[2020.06.29-20.41.44:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2020.06.29-20.41.44:927][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2020.06.29-20.41.44:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2020.06.29-20.41.44:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2020.06.29-20.41.45:000][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2020.06.29-20.41.45:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2020.06.29-20.41.45:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2020.06.29-20.41.45:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2020.06.29-20.41.45:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2020.06.29-20.41.45:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2020.06.29-20.41.45:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2020.06.29-20.41.45:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Props/MaterialSphere.uasset"
-[2020.06.29-20.41.45:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Props/SM_Bush.uasset"
-[2020.06.29-20.41.45:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Props/SM_Chair.uasset"
-[2020.06.29-20.41.45:305][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2020.06.29-20.41.45:347][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Props/SM_Couch.uasset"
-[2020.06.29-20.41.45:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Props/SM_Door.uasset"
-[2020.06.29-20.41.45:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2020.06.29-20.41.45:477][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2020.06.29-20.41.45:521][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2020.06.29-20.41.45:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2020.06.29-20.41.45:626][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2020.06.29-20.41.45:665][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2020.06.29-20.41.45:709][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2020.06.29-20.41.45:750][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Props/SM_Rock.uasset"
-[2020.06.29-20.41.46:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Props/SM_Shelf.uasset"
-[2020.06.29-20.41.46:114][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Props/SM_Stairs.uasset"
-[2020.06.29-20.41.46:137][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Props/SM_Statue.uasset"
-[2020.06.29-20.41.46:154][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Props/SM_TableRound.uasset"
-[2020.06.29-20.41.46:195][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2020.06.29-20.41.46:232][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2020.06.29-20.41.46:273][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2020.06.29-20.41.46:312][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2020.06.29-20.41.46:357][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2020.06.29-20.41.46:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2020.06.29-20.41.46:439][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2020.06.29-20.41.46:491][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2020.06.29-20.41.46:531][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2020.06.29-20.41.46:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2020.06.29-20.41.46:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2020.06.29-20.41.46:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2020.06.29-20.41.46:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2020.06.29-20.41.46:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2020.06.29-20.41.46:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2020.06.29-20.41.46:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2020.06.29-20.41.46:840][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2020.06.29-20.41.46:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2020.06.29-20.41.46:933][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2020.06.29-20.41.46:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2020.06.29-20.41.47:318][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2020.06.29-20.41.47:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2020.06.29-20.41.47:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2020.06.29-20.41.47:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2020.06.29-20.41.47:552][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2020.06.29-20.41.47:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2020.06.29-20.41.47:629][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2020.06.29-20.41.47:646][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2020.06.29-20.41.47:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2020.06.29-20.41.47:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2020.06.29-20.41.47:739][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2020.06.29-20.41.47:789][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2020.06.29-20.41.47:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2020.06.29-20.41.48:069][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2020.06.29-20.41.48:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2020.06.29-20.41.48:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2020.06.29-20.41.48:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2020.06.29-20.41.48:881][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2020.06.29-20.41.49:127][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2020.06.29-20.41.49:279][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2020.06.29-20.41.49:486][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2020.06.29-20.41.49:561][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2020.06.29-20.41.49:682][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2020.06.29-20.41.49:793][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2020.06.29-20.41.49:873][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2020.06.29-20.41.50:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2020.06.29-20.41.50:179][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2020.06.29-20.41.50:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2020.06.29-20.41.50:208][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2020.06.29-20.41.50:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2020.06.29-20.41.50:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2020.06.29-20.41.50:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2020.06.29-20.41.50:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2020.06.29-20.41.50:637][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2020.06.29-20.41.50:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2020.06.29-20.41.50:938][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2020.06.29-20.41.51:044][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2020.06.29-20.41.51:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2020.06.29-20.41.51:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2020.06.29-20.41.51:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2020.06.29-20.41.51:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2020.06.29-20.41.51:703][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2020.06.29-20.41.51:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2020.06.29-20.41.51:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2020.06.29-20.41.51:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2020.06.29-20.41.52:044][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2020.06.29-20.41.52:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2020.06.29-20.41.52:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2020.06.29-20.41.52:185][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2020.06.29-20.41.52:193][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2020.06.29-20.41.52:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2020.06.29-20.41.52:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Door_M.uasset"
-[2020.06.29-20.41.52:282][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Door_N.uasset"
-[2020.06.29-20.41.52:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2020.06.29-20.41.52:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2020.06.29-20.41.52:335][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2020.06.29-20.41.52:352][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2020.06.29-20.41.52:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2020.06.29-20.41.52:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2020.06.29-20.41.52:722][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2020.06.29-20.41.53:328][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2020.06.29-20.41.53:449][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2020.06.29-20.41.53:728][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2020.06.29-20.41.53:787][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2020.06.29-20.41.54:310][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2020.06.29-20.41.54:374][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2020.06.29-20.41.54:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2020.06.29-20.41.54:407][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2020.06.29-20.41.54:494][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2020.06.29-20.41.54:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2020.06.29-20.41.54:688][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2020.06.29-20.41.54:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2020.06.29-20.41.54:818][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2020.06.29-20.41.54:915][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2020.06.29-20.41.54:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2020.06.29-20.41.55:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2020.06.29-20.41.55:110][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2020.06.29-20.41.55:270][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2020.06.29-20.41.55:721][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2020.06.29-20.41.55:764][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2020.06.29-20.41.55:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2020.06.29-20.41.55:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2020.06.29-20.41.56:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2020.06.29-20.41.56:081][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2020.06.29-20.41.56:147][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2020.06.29-20.41.56:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2020.06.29-20.41.56:368][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2020.06.29-20.41.56:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2020.06.29-20.41.56:517][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2020.06.29-20.41.56:577][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2020.06.29-20.41.56:707][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2020.06.29-20.41.57:137][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2020.06.29-20.41.57:148][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2020.06.29-20.41.57:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2020.06.29-20.41.57:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2020.06.29-20.41.57:194][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2020.06.29-20.41.57:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2020.06.29-20.41.57:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2020.06.29-20.41.57:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2020.06.29-20.41.57:256][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2020.06.29-20.41.57:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2020.06.29-20.41.57:288][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2020.06.29-20.41.57:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2020.06.29-20.41.57:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2020.06.29-20.41.57:395][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Water_M.uasset"
-[2020.06.29-20.41.57:439][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Water_N.uasset"
-[2020.06.29-20.41.57:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2020.06.29-20.41.57:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2020.06.29-20.41.57:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2020.06.29-20.41.57:662][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2020.06.29-20.41.57:711][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2020.06.29-20.41.57:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2020.06.29-20.41.57:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2020.06.29-20.41.57:971][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2020.06.29-20.41.58:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2020.06.29-20.41.58:978][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
-[2020.06.29-20.41.59:175][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
-[2020.06.29-20.41.59:750][  0]LogSavePackage: Moving '../../../../../PGPW/Programowanie/Kula/KulaGame/Saved/Floor_400x4006971EF6245010D60C1C4958BCC88A5AD.tmp' to '../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2020.06.29-20.41.59:764][  0]LogFeaturePack: Warning: Inserted 2 feature packs
-[2020.06.29-20.41.59:766][  0]Cmd: MAP LOAD FILE="../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.06.29-20.41.59:766][  0]LightingResults: New page: Lighting Build
-[2020.06.29-20.41.59:767][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.06.29-20.41.59:767][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.29-20.41.59:767][  0]MapCheck: New page: Map Check
-[2020.06.29-20.41.59:767][  0]LightingResults: New page: Lighting Build
-[2020.06.29-20.41.59:802][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
-[2020.06.29-20.42.00:427][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2020.06.29-20.42.00:456][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.06.29-20.42.00:503][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
-[2020.06.29-20.42.00:503][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.06.29-20.42.00:503][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,092ms to complete.
-[2020.06.29-20.42.00:503][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.738
-[2020.06.29-20.42.01:085][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.29-20.42.01:091][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.29-20.42.01:098][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.29-20.42.01:104][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.29-20.42.01:174][  0]LogCollectionManager: Loaded 0 collections in 0.000756 seconds
-[2020.06.29-20.42.01:223][  0]LogFileCache: Scanning file cache for directory 'E:/PGPW/Programowanie/Kula/KulaGame/Saved/Collections/' took 0.00s
-[2020.06.29-20.42.01:223][  0]LogFileCache: Scanning file cache for directory 'E:/PGPW/Programowanie/Kula/KulaGame/Content/Developers/User/Collections/' took 0.00s
-[2020.06.29-20.42.01:223][  0]LogFileCache: Scanning file cache for directory 'E:/PGPW/Programowanie/Kula/KulaGame/Content/Collections/' took 0.00s
-[2020.06.29-20.42.01:223][  0]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 3015 classes and 717 folders.
-[2020.06.29-20.42.01:432][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.06.29-20.42.01:475][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.06.29-20.42.01:506][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
-[2020.06.29-20.42.01:608][  0]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.06.29-20.42.01:610][  0]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.06.29-20.42.01:628][  0]LogSlate: Took 0.013578 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.06.29-20.42.01:782][  0]LogRenderer: Reallocating scene render targets to support 1208x648 Format 10 NumSamples 1 (Frame:1).
-[2020.06.29-20.42.01:855][  0]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.06.29-20.42.01:934][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.06.29-20.42.01:934][  0]LogLoad: (Engine Initialization) Total time: 29.80 seconds
-[2020.06.29-20.42.01:934][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.06.29-20.42.02:063][  0]AssetCheck: New page: Asset Save: Floor_400x400
-[2020.06.29-20.42.02:063][  0]LogContentValidation: Display: Validating StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
-[2020.06.29-20.42.02:424][  0]LogAssetRegistry: Asset discovery search completed in 27.5548 seconds
-[2020.06.29-20.42.02:428][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000010 seconds (updated 0 objects)
-[2020.06.29-20.42.02:428][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.06.29-20.42.44:439][213]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.06.29-20.42.44:586][213]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
-[2020.06.29-20.42.44:590][213]LogSavePackage: Moving '../../../../../PGPW/Programowanie/Kula/KulaGame/Saved/MainLevelF09FDF0C410C7885400AF28559C894E8.tmp' to '../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Maps/MainLevel.umap'
-[2020.06.29-20.42.44:591][213]LogFileHelpers: Saving map 'MainLevel' took 0.040
-[2020.06.29-20.42.44:783][213]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
-[2020.06.29-20.42.44:823][213]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
-[2020.06.29-20.42.44:856][213]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
-[2020.06.29-20.42.44:901][213]AssetCheck: New page: Asset Save: MainLevel
-[2020.06.29-20.42.44:902][213]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/MainLevel.MainLevel
-[2020.06.29-20.42.47:100][464]LogAssetEditorSubsystem: Opening Asset editor for World /Game/StarterContent/Maps/MainLevel.MainLevel
-[2020.06.29-20.42.47:132][464]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
-[2020.06.29-20.42.47:133][464]Cmd: MAP LOAD FILE="../../../../../PGPW/Programowanie/Kula/KulaGame/Content/StarterContent/Maps/MainLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.06.29-20.42.47:133][464]LightingResults: New page: Lighting Build
-[2020.06.29-20.42.47:134][464]LoadErrors: New page: Loading map: MainLevel.umap
-[2020.06.29-20.42.47:134][464]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
-[2020.06.29-20.42.47:134][464]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.29-20.42.47:134][464]MapCheck: New page: Map Check
-[2020.06.29-20.42.47:134][464]LightingResults: New page: Lighting Build
-[2020.06.29-20.42.47:170][464]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
-[2020.06.29-20.42.47:171][464]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.06.29-20.42.47:171][464]LogAIModule: Creating AISystem for world MainLevel
-[2020.06.29-20.42.47:206][464]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
-[2020.06.29-20.42.47:212][464]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.06.29-20.42.47:212][464]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,071ms to complete.
-[2020.06.29-20.42.47:212][464]LogFileHelpers: Loading map 'MainLevel' took 0.080
-[2020.06.29-20.43.07:396][659]LogSlate: Window 'Project Settings' being destroyed
-[2020.06.29-20.43.07:400][659]LogSlate: Window 'Project Settings' being destroyed
-[2020.06.29-20.43.27:161][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.06.29-21.18.34:996][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.06.29-21.18.34:996][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.06.29-21.18.34:996][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/PGPW/Programowanie/BallGame/KulaGame/Saved/Config/Windows/Engine.ini]
+[2020.06.29-21.18.34:996][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.06.29-21.18.34:996][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2020.06.29-21.18.34:996][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/PGPW/Programowanie/BallGame/KulaGame/Saved/Config/Windows/Engine.ini]
+[2020.06.29-21.18.34:996][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/PGPW/Programowanie/BallGame/KulaGame/Saved/Config/Windows/Engine.ini]
+[2020.06.29-21.18.34:996][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.06.29-21.18.34:996][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.06.29-21.18.34:996][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.06.29-21.18.34:996][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.06.29-21.18.34:996][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.06.29-21.18.34:996][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.06.29-21.18.34:996][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.06.29-21.18.34:996][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.06.29-21.18.34:996][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.06.29-21.18.34:996][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.06.29-21.18.34:996][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.06.29-21.18.34:996][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.06.29-21.18.34:996][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.06.29-21.18.34:996][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.06.29-21.18.34:996][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/PGPW/Programowanie/BallGame/KulaGame/Saved/Config/Windows/Engine.ini]
+[2020.06.29-21.18.34:996][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.06.29-21.18.34:996][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.06.29-21.18.34:996][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.06.29-21.18.34:996][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.06.29-21.18.34:996][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.06.29-21.18.34:996][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.06.29-21.18.34:996][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.06.29-21.18.34:996][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.06.29-21.18.34:996][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.06.29-21.18.34:996][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.06.29-21.18.34:996][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.06.29-21.18.34:996][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.06.29-21.18.34:996][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.06.29-21.18.34:996][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/PGPW/Programowanie/BallGame/KulaGame/Saved/Config/Windows/Engine.ini]
+[2020.06.29-21.18.34:996][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/PGPW/Programowanie/BallGame/KulaGame/Saved/Config/Windows/Engine.ini]
+[2020.06.29-21.18.34:999][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/PGPW/Programowanie/BallGame/KulaGame/Saved/Config/Windows/Scalability.ini]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/PGPW/Programowanie/BallGame/KulaGame/Saved/Config/Windows/Scalability.ini]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/PGPW/Programowanie/BallGame/KulaGame/Saved/Config/Windows/Scalability.ini]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/PGPW/Programowanie/BallGame/KulaGame/Saved/Config/Windows/Scalability.ini]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/PGPW/Programowanie/BallGame/KulaGame/Saved/Config/Windows/Scalability.ini]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.29-21.18.34:999][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/PGPW/Programowanie/BallGame/KulaGame/Saved/Config/Windows/Scalability.ini]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/PGPW/Programowanie/BallGame/KulaGame/Saved/Config/Windows/Scalability.ini]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/PGPW/Programowanie/BallGame/KulaGame/Saved/Config/Windows/Scalability.ini]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.29-21.18.35:000][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.29-21.18.35:000][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.29-21.18.35:000][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.06.29-21.18.35:003][  0]LogHAL: Display: Platform has ~ 16 GB [17106587648 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.06.29-21.18.35:003][  0]LogInit: Going up to parent DeviceProfile []
+[2020.06.29-21.18.35:003][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/PGPW/Programowanie/BallGame/KulaGame/Saved/Config/Windows/Scalability.ini]
+[2020.06.29-21.18.35:003][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.29-21.18.35:003][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.29-21.18.35:003][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/PGPW/Programowanie/BallGame/KulaGame/Saved/Config/Windows/Scalability.ini]
+[2020.06.29-21.18.35:003][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.29-21.18.35:003][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/PGPW/Programowanie/BallGame/KulaGame/Saved/Config/Windows/Scalability.ini]
+[2020.06.29-21.18.35:003][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.29-21.18.35:003][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.29-21.18.35:003][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.29-21.18.35:003][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.29-21.18.35:003][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.29-21.18.35:003][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.29-21.18.35:003][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.29-21.18.35:003][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.29-21.18.35:003][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.29-21.18.35:003][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.29-21.18.35:003][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.29-21.18.35:003][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.29-21.18.35:003][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.29-21.18.35:003][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.29-21.18.35:003][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.29-21.18.35:003][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/PGPW/Programowanie/BallGame/KulaGame/Saved/Config/Windows/Scalability.ini]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/PGPW/Programowanie/BallGame/KulaGame/Saved/Config/Windows/Scalability.ini]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/PGPW/Programowanie/BallGame/KulaGame/Saved/Config/Windows/Scalability.ini]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/PGPW/Programowanie/BallGame/KulaGame/Saved/Config/Windows/Scalability.ini]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/PGPW/Programowanie/BallGame/KulaGame/Saved/Config/Windows/Scalability.ini]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.06.29-21.18.35:004][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/PGPW/Programowanie/BallGame/KulaGame/Saved/Config/Windows/Engine.ini]
+[2020.06.29-21.18.35:004][  0]LogInit: Computer: DESKTOP-B6UEMA3
+[2020.06.29-21.18.35:004][  0]LogInit: User: User
+[2020.06.29-21.18.35:005][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.06.29-21.18.35:005][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.06.29-21.18.35:005][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.06.29-21.18.35:005][  0]LogMemory: Platform Memory Stats for Windows
+[2020.06.29-21.18.35:005][  0]LogMemory: Process Physical Memory: 104.95 MB used, 104.95 MB peak
+[2020.06.29-21.18.35:005][  0]LogMemory: Process Virtual Memory: 101.34 MB used, 101.34 MB peak
+[2020.06.29-21.18.35:005][  0]LogMemory: Physical Memory: 5131.34 MB used,  11182.78 MB free, 16314.11 MB total
+[2020.06.29-21.18.35:005][  0]LogMemory: Virtual Memory: 5159.40 MB used,  134212568.00 MB free, 134217728.00 MB total
+[2020.06.29-21.18.35:007][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.06.29-21.18.35:022][  0]LogInit: Using OS detected language (pl-PL).
+[2020.06.29-21.18.35:022][  0]LogInit: Using OS detected locale (pl-PL).
+[2020.06.29-21.18.35:022][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
+[2020.06.29-21.18.35:022][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/pl/Editor.locres' could not be opened for reading!
+[2020.06.29-21.18.35:023][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/pl/EditorTutorials.locres' could not be opened for reading!
+[2020.06.29-21.18.35:023][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/pl/Keywords.locres' could not be opened for reading!
+[2020.06.29-21.18.35:023][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/pl/Category.locres' could not be opened for reading!
+[2020.06.29-21.18.35:023][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/pl/ToolTips.locres' could not be opened for reading!
+[2020.06.29-21.18.35:023][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/pl/PropertyNames.locres' could not be opened for reading!
+[2020.06.29-21.18.35:023][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/pl/Engine.locres' could not be opened for reading!
+[2020.06.29-21.18.35:024][  0]LogInit: Setting process to per monitor DPI aware
+[2020.06.29-21.18.35:058][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.06.29-21.18.35:058][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.06.29-21.18.35:203][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.29-21.18.35:203][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.06.29-21.18.35:203][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.06.29-21.18.35:203][  0]LogD3D11RHI: D3D11 adapters:
+[2020.06.29-21.18.35:293][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660' (Feature Level 11_0)
+[2020.06.29-21.18.35:293][  0]LogD3D11RHI:       5991/0/8157 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.06.29-21.18.35:296][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.06.29-21.18.35:296][  0]LogD3D11RHI:       0/0/8157 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.06.29-21.18.35:296][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.06.29-21.18.35:304][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.06.29-21.18.35:304][  0]LogD3D11RHI:     GPU DeviceId: 0x2184 (for the marketing name, search the web for "GPU Device Id")
+[2020.06.29-21.18.35:304][  0]LogWindows: EnumDisplayDevices:
+[2020.06.29-21.18.35:305][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1660' (P:1 D:1)
+[2020.06.29-21.18.35:305][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1660' (P:0 D:0)
+[2020.06.29-21.18.35:305][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1660' (P:0 D:0)
+[2020.06.29-21.18.35:305][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660' (P:0 D:0)
+[2020.06.29-21.18.35:305][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.06.29-21.18.35:305][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660
+[2020.06.29-21.18.35:305][  0]LogD3D11RHI:   Driver Version: 445.87 (internal:26.21.14.4587, unified:445.87)
+[2020.06.29-21.18.35:305][  0]LogD3D11RHI:      Driver Date: 4-3-2020
+[2020.06.29-21.18.35:305][  0]LogRHI: Texture pool is 4193 MB (70% of 5991 MB)
+[2020.06.29-21.18.35:365][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.06.29-21.18.35:365][  0]LogD3D11RHI: Async texture creation enabled
+[2020.06.29-21.18.35:377][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.06.29-21.18.35:636][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.06.29-21.18.35:668][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.06.29-21.18.35:668][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.06.29-21.18.35:668][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.06.29-21.18.35:668][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.06.29-21.18.35:668][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.06.29-21.18.35:668][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.06.29-21.18.35:668][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.06.29-21.18.35:668][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.06.29-21.18.35:668][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.06.29-21.18.35:668][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.06.29-21.18.35:668][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.06.29-21.18.35:668][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.06.29-21.18.35:668][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.06.29-21.18.35:668][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.06.29-21.18.35:668][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.06.29-21.18.35:668][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.06.29-21.18.35:668][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.06.29-21.18.35:668][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.06.29-21.18.35:686][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.06.29-21.18.35:686][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.06.29-21.18.35:694][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.06.29-21.18.35:701][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.06.29-21.18.35:708][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.06.29-21.18.35:715][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.06.29-21.18.35:722][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.06.29-21.18.35:729][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.06.29-21.18.35:753][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.06.29-21.18.35:753][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.06.29-21.18.35:766][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.06.29-21.18.35:766][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.06.29-21.18.35:774][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.06.29-21.18.35:781][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.06.29-21.18.35:788][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.06.29-21.18.35:796][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.06.29-21.18.35:796][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.06.29-21.18.35:798][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.06.29-21.18.35:815][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../PGPW/Programowanie/BallGame/KulaGame/Intermediate/Shaders/WorkingDirectory/15248/).
+[2020.06.29-21.18.35:815][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/EF5A6CAD46649012992174AA9AB2086B/'.
+[2020.06.29-21.18.35:815][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.06.29-21.18.35:815][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.06.29-21.18.35:815][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.06.29-21.18.36:546][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.06.29-21.18.36:590][  0]LogDerivedDataCache: Loaded boot cache 0.04s 78MB C:/Users/User/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.06.29-21.18.36:590][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.06.29-21.18.36:590][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../PGPW/Programowanie/BallGame/KulaGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.06.29-21.18.36:590][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.06.29-21.18.36:591][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../PGPW/Programowanie/BallGame/KulaGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.29-21.18.36:591][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.06.29-21.18.36:601][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.06.29-21.18.36:601][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.29-21.18.36:601][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.06.29-21.18.36:603][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.06.29-21.18.36:603][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.06.29-21.18.36:603][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.06.29-21.18.36:630][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.06.29-21.18.36:633][  0]LogSlate: Using FreeType 2.10.0
+[2020.06.29-21.18.36:633][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.06.29-21.18.36:685][  0]LogAssetRegistry: FAssetRegistry took 0.0024 seconds to start up
+[2020.06.29-21.18.36:989][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.29-21.18.37:144][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.06.29-21.18.37:144][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.06.29-21.18.37:144][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.06.29-21.18.37:144][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.06.29-21.18.37:144][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.06.29-21.18.37:155][  0]LogNetVersion: KulaGame 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 871598585)
+[2020.06.29-21.18.38:192][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.033258 seconds
+[2020.06.29-21.18.38:200][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.06.29-21.18.38:200][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.06.29-21.18.38:200][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.06.29-21.18.38:595][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.06.29-21.18.38:597][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.06.29-21.18.38:644][  0]SourceControl: Source control is disabled
+[2020.06.29-21.18.38:644][  0]SourceControl: Source control is disabled
+[2020.06.29-21.18.38:645][  0]SourceControl: Source control is disabled
+[2020.06.29-21.18.38:646][  0]SourceControl: Source control is disabled
+[2020.06.29-21.18.38:646][  0]SourceControl: Source control is disabled
+[2020.06.29-21.18.38:719][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.06.29-21.18.38:730][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.29-21.18.38:730][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.29-21.18.38:820][  0]LogOcInput: OculusInput pre-init called
+[2020.06.29-21.18.38:826][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.06.29-21.18.38:826][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.06.29-21.18.38:898][  0]LogEngine: Initializing Engine...
+[2020.06.29-21.18.38:898][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.29-21.18.38:899][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.06.29-21.18.39:246][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.06.29-21.18.39:252][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.06.29-21.18.39:260][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.29-21.18.39:260][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.29-21.18.39:260][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.29-21.18.39:261][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.29-21.18.39:261][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.29-21.18.39:261][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.29-21.18.39:261][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.29-21.18.39:261][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.29-21.18.39:261][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.29-21.18.39:261][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.29-21.18.39:269][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.29-21.18.39:269][  0]LogAudioMixer: Display: Name: Głośniki (Realtek(R) Audio)
+[2020.06.29-21.18.39:269][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.06.29-21.18.39:269][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.29-21.18.39:269][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.29-21.18.39:269][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.29-21.18.39:269][  0]LogAudioMixer: Display: Channel Order:
+[2020.06.29-21.18.39:269][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.29-21.18.39:269][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.06.29-21.18.39:292][  0]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2020.06.29-21.18.39:295][  0]LogInit: FAudioDevice initialized.
+[2020.06.29-21.18.39:295][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.06.29-21.18.39:451][  0]LogDerivedDataCache: Saved boot cache 0.16s 78MB C:/Users/User/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.06.29-21.18.39:453][  0]LogInit: Texture streaming: Enabled
+[2020.06.29-21.18.39:462][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.06.29-21.18.39:462][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.06.29-21.18.39:463][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.06.29-21.18.39:601][  0]LogInit: Transaction tracking system initialized
+[2020.06.29-21.18.39:610][  0]BlueprintLog: New page: Editor Load
+[2020.06.29-21.18.39:635][  0]LocalizationService: Localization service is disabled
+[2020.06.29-21.18.39:903][  0]LogFileCache: Scanning file cache for directory 'E:/PGPW/Programowanie/BallGame/KulaGame/Content/' took 0.00s
+[2020.06.29-21.18.39:903][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.06.29-21.18.39:903][  0]LogCook: Display: Mobile HDR setting 1
+[2020.06.29-21.18.40:554][  0]SourceControl: Source control is disabled
+[2020.06.29-21.18.40:554][  0]Cmd: MAP LOAD FILE="../../../../../PGPW/Programowanie/BallGame/KulaGame/Content/StarterContent/Maps/MainLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.29-21.18.40:554][  0]LightingResults: New page: Lighting Build
+[2020.06.29-21.18.40:555][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.06.29-21.18.40:555][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.29-21.18.40:555][  0]MapCheck: New page: Map Check
+[2020.06.29-21.18.40:555][  0]LightingResults: New page: Lighting Build
+[2020.06.29-21.18.40:590][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2020.06.29-21.18.40:596][  0]LogAIModule: Creating AISystem for world MainLevel
+[2020.06.29-21.18.40:599][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.29-21.18.40:636][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2020.06.29-21.18.40:636][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.29-21.18.40:636][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,093ms to complete.
+[2020.06.29-21.18.40:636][  0]LogFileHelpers: Loading map 'MainLevel' took 0.082
+[2020.06.29-21.18.40:780][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.29-21.18.40:787][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.29-21.18.40:793][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.29-21.18.40:800][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.29-21.18.40:804][  0]LogCollectionManager: Loaded 0 collections in 0.000762 seconds
+[2020.06.29-21.18.40:819][  0]LogFileCache: Scanning file cache for directory 'E:/PGPW/Programowanie/BallGame/KulaGame/Saved/Collections/' took 0.00s
+[2020.06.29-21.18.40:819][  0]LogFileCache: Scanning file cache for directory 'E:/PGPW/Programowanie/BallGame/KulaGame/Content/Developers/User/Collections/' took 0.00s
+[2020.06.29-21.18.40:819][  0]LogFileCache: Scanning file cache for directory 'E:/PGPW/Programowanie/BallGame/KulaGame/Content/Collections/' took 0.00s
+[2020.06.29-21.18.40:819][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 3015 classes and 717 folders.
+[2020.06.29-21.18.40:823][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.06.29-21.18.40:863][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.06.29-21.18.40:866][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2020.06.29-21.18.40:900][  0]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.06.29-21.18.40:902][  0]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.06.29-21.18.40:907][  0]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.06.29-21.18.40:976][  0]LogRenderer: Reallocating scene render targets to support 1208x648 Format 10 NumSamples 1 (Frame:1).
+[2020.06.29-21.18.41:078][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.06.29-21.18.41:078][  0]LogLoad: (Engine Initialization) Total time: 7.00 seconds
+[2020.06.29-21.18.41:078][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.06.29-21.18.41:120][  0]LogAssetRegistry: Asset discovery search completed in 4.4356 seconds
+[2020.06.29-21.18.41:123][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
+[2020.06.29-21.18.41:124][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.06.29-21.18.41:209][  0]LogSlate: Took 0.000105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
